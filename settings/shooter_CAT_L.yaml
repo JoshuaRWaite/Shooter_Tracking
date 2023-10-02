@@ -1,0 +1,7 @@
+path: ./shooter
+train: train/CAT_2545/images
+val: val/Real/images
+test: test/Real/images
+
+nc: 2
+names: ['Shooter', 'Gun']

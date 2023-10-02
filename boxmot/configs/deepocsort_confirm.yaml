@@ -1,0 +1,16 @@
+alpha_fixed_emb: 0.95
+asso_func: iou
+aw_off: false
+aw_param: 0.5
+cmc_off: true
+conf_gun: 0.35
+delta_t: 3
+det_thresh: 0
+embedding_off: false
+inertia: 0.2
+iou_thresh: 0.3
+max_age: 120
+min_hits: 3
+new_kf_off: false
+overlap_gun: 0.75
+w_association_emb: 0.75
