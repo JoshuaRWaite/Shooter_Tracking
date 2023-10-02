@@ -13,7 +13,7 @@ The figure above shows an overview of the entire system. We train YOLOv8n using 
 The figure above shows the pipeline of our gun confirmation system for shooter tracking. Shooter and gun detection boxes are sent to Deep OC-SORT. The gun detections are not tracked but are instead used in track initialization to confirm a new shooter detection before assigning that track an ID. After a shooter has an ID, that track no longer requires a gun detection to continue being tracked. If a shooter detection does not match an existing ID and does not have a gun detection to confirm it, it is discarded.
 
 ## Dataset
-Our dataset,[Real and Synthetic Dataset for Active Shooter Situations](), contains both real and synthetic data and includes annotations for both gun and shooter classes for detection and tracking scenarios. To use with this repository, unzip the downloaded folder and copy the "shooter" folder into the "data" folder and copy "MOT-ASTERS" to the base directory. An overview of the dataset can be seen below.
+Our dataset,[Real and Synthetic Dataset for Active Shooter Situations](https://doi.org/10.5281/zenodo.8316779), contains both real and synthetic data and includes annotations for both gun and shooter classes for detection and tracking scenarios. To use with this repository, unzip the downloaded folder and copy the "shooter" folder into the "data" folder and copy "MOT-ASTERS" to the base directory. An overview of the dataset can be seen below.
 
 <p align="center">
     <img src="/images/ASTERS_Dataset_Overview.png" width="800">
